@@ -1,0 +1,138 @@
+html, body, ul, ol, li, form, fieldset, legend {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+   overflow-x: hidden;
+     background-color: #ff6666;
+     background: linear-gradient(to bottom,  #ff6666 0%, #ff6666 50%,#000000 50%,white 50%,white 100%); 
+    font: 90%/1.3"DejaVu Sans", "URW Gothic L", "Helvetica Neue", Helvetica, Arial, "Microsoft Sans Serif", sans-serif;
+}
+/* ------- Estilos propios ------ */
+/* Clearfix */
+ .clearfix:before, .clearfix:after {
+    content:" ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+.pagina {
+    width: 80%;
+    margin:100px;
+    background-color: #ff6666;
+}
+.barra-menu {
+    width: 100%;
+    margin: 100px;
+    overflow: hidden;
+    background-color: #ff6666;
+}
+.menu {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 100px;
+    width: 100%;
+   
+}
+.lista-menu li {
+    display: inline-block;
+    float: left;
+    width: 20%;
+    border-right: 1px solid white;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.lista-menu li:last-child {
+    border-right: none;
+}
+.lista-menu a, .btn-menu {
+    display: block;
+    width: 100%;
+    height: 3em;
+    line-height: 3em;
+    text-transform: uppercase;
+}
+.btn-menu {
+    display: none;
+}
+}
+/*  ------ tipografías----------------- */
+
+/*........ Alineamiento........*/
+ .aln-izquierda {
+    text-align: center;
+}
+.aln-centro {
+    text-align: center;
+}
+.aln-derecha {
+    text-align: center;
+}
+/*......... Colores y Fuentes .......*/
+ body {
+    font-family: arial, helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 100%;
+    overflow-y: scroll;
+   
+}
+.lista-menu a, .btn-menu {
+    text-decoration: none;
+    color: #fff;
+   
+}
+.lista-menu a:hover {
+    background-color: white;
+    color: #ff6666;
+}
+/*  ------------- media queries ----------*/
+ @media screen and (max-width:480px) {
+   
+     #pagina {
+        width: 60%;
+        margin-top: auto;
+      
+    }
+
+   
+
+    .btn-menu {
+        display: block;
+        background-color: whitesmoke;
+        color:  #ff6666;
+        text-align: center;
+    }
+    #submenu {
+        display: none;
+    }
+    .lista-menu li {
+        display: block;
+        float: none;
+        width: 100%;
+        border: none;
+    }
+    li {
+        border-left: none;
+        border-right: none;
+    }
+}
+ h2{
+    color: grey;
+ font: 90%/1.3"DejaVu Sans", "URW Gothic L", "Helvetica Neue", Helvetica, Arial, "Microsoft Sans Serif", sans-serif;
+}
+
+.container{
+    width:80%;
+}
+a .fa{
+color: #333;
+margin-right: 10px;
+}
+
